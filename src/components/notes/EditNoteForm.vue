@@ -2,7 +2,7 @@
   <Layout>
     <div class="max-w-4xl mx-auto p-4" v-if="note !== null">
       <div class="bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4">
-        <h2 class="text-2xl font-bold text-gray-800 mb-6">Edit Note</h2>
+        <h2 class="text-2xl font-bold text-gray-800 mb-4 lg:mb-6">Edit Note</h2>
 
         <form @submit.prevent="handleSubmit">
 

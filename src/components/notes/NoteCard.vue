@@ -1,6 +1,6 @@
 <template>
-  <div class="rounded-lg hover:shadow-md transition-shadow duration-200 cursor-pointer border border-gray-400
-    overflow-hidden min-h-[150px] relative group">
+  <div
+    class="rounded-lg hover:shadow-md transition-shadow duration-200 cursor-pointer border border-gray-400 overflow-hidden min-h-[150px] relative group">
 
     <RouterLink :to="{ name: 'NoteDetail', params: { id: note.id } }" class="block">
       <div class="p-4">
@@ -13,8 +13,7 @@
       </div>
     </RouterLink>
 
-    <div
-      class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex gap-1 z-10">
+    <div class="absolute top-2 right-2 transition-opacity duration-200 flex gap-1 z-10">
       <RouterLink :to="{ name: 'EditNote', params: { id: note.id } }">
         <button
           class="p-1.5 rounded-full bg-white shadow-md hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 cursor-pointer"

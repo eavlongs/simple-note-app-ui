@@ -1,11 +1,11 @@
 <template>
   <Layout>
     <div class="p-4 space-y-6">
-      <div class="flex gap-4 items-center">
+      <div class="flex gap-4 lg:items-center flex-col lg:flex-row">
         <SearchInput @search="handleSearch" />
         <Sort @sort="handleSortChange" />
         <DateFilter @date-filter="handleDateFilter" />
-        <div class="ml-auto">
+        <div class="md:ml-auto">
           <NewNoteButton />
         </div>
       </div>
