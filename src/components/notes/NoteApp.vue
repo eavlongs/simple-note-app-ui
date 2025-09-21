@@ -53,7 +53,7 @@ const handleSearch = (term: string) => {
 const handleSortChange = (config: SortConfig) => {
   const field = config.field
 
-  filteredNotes.value = notes.value.sort((a, b) => {
+  notes.value = notes.value.sort((a, b) => {
     const aValue = a[config.field]
     const bValue = b[config.field]
 
