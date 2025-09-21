@@ -1,9 +1,13 @@
 <template>
   <div class="flex items-center justify-center h-[calc(100vh-4rem)]" v-if="withLayout">
-    <slot />
+    <div class="p-4 lg:p-0 w-full">
+      <slot />
+    </div>
   </div>
   <div class="flex items-center justify-center" v-else>
-    <slot />
+    <div class="p-4 lg:p-0 w-full">
+      <slot />
+    </div>
   </div>
 </template>
 
