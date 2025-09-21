@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <CenterScreen>
-      <div class="w-full max-w-sm">
+      <div class="w-full max-w-sm p-4 lg:p-0">
         <h2 class="text-2xl font-bold text-center mb-6">Login</h2>
 
         <form @submit.prevent="handleSubmit" class="space-y-4">
