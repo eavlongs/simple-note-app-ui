@@ -1,0 +1,1 @@
+export const MAX_NOTE_CONTENT_LENGTH = 5000
